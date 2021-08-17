@@ -11,11 +11,6 @@
 
 static unsigned long int TP=0,TN=0;
 
-
-
-
-//int seed11, seed12,seed13,seed14,seed15,seed16, seed17, seed18,seed19,seed20;
-
 unsigned long int **kBF;
 
 void insertSmartBF(char *key)
@@ -57,7 +52,6 @@ int main()
 	unsigned long int count=0;
 	double fp=0.0;
 	FILE *f=fopen("10M_r.txt","w");
-	FILE *fi=fopen("password1.txt","r");
 	clock_t start, end;
 	printf("File initiated!\n");	
 	initSeed();
@@ -228,6 +222,5 @@ int main()
 
 	freeSmartBF();
 	fclose(f);
-	fclose(fi);
 	return 0;
 }
