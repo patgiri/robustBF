@@ -7,7 +7,7 @@ To cite the work
 
 @article{DBLP:journals/corr/abs-2106-04365,
 
-  author    = {Ripon Patgiri},
+  author    = {Sabuzima Nayak and Ripon Patgiri},
   
   title     = {robustBF: {A} High Accuracy and Memory Efficient {2D} {Bloom Filter}},
   
