@@ -58,8 +58,8 @@ void setDim(unsigned long int m)
 	f=sqrt(k);
 	i=selectPrime(f);
 	//int j=(i/1.5);
-	a=prime[i+3];
-	b=prime[i-3];
+	a=prime[i/2+3];
+	b=prime[i/2-3];
 	//c=prime[i-3];
 	//d=prime[i+3];
 	//e=prime[i/3+3];
