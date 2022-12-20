@@ -1,10 +1,15 @@
-RobustBF: A High Accuracy and Memory Efficient 2D Bloom Filter
+# RobustBF: A High Accuracy and Memory Efficient 2D Bloom Filter
 
 To compile robustBF
-$gcc robustBF -lm
 
-To cite the work
+```$gcc robustBF -lm```
 
+To run the code
+
+```$./a.out```
+
+## To cite the work
+```bibtex
 @article{DBLP:journals/corr/abs-2106-04365,
 
   author    = {Sabuzima Nayak and Ripon Patgiri},
@@ -23,4 +28,4 @@ To cite the work
   
   eprint    = {2106.04365},
 
-}
+}```
